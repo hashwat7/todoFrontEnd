@@ -54,7 +54,7 @@ export const CreateTodo = ({ props }) => {
               }
               setDescription("");
               setTitle("");
-              fetch("http://localhost:3000/todo", {
+              fetch("https://todobackend-ckwn.onrender.com/todo", {
                 method: "POST",
                 body: JSON.stringify({
                   title: title,
