@@ -1,0 +1,9 @@
+.contain {
+  border: 1px solid black;
+  margin: 0px 30px;
+  margin-top: 50px;
+  min-height: 600px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 3px;
+  background-color:rgb(172, 225, 175);
+}

@@ -1,0 +1,12 @@
+span {
+  margin: 15px 2px;
+  width: 100%;
+}
+button {
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.task-description {
+  font-size: 25px;
+}
