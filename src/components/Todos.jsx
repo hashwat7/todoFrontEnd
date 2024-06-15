@@ -3,7 +3,7 @@ import { LuListTodo } from "react-icons/lu";
 export const Todos = ({ todos }) => {
   const completeIt = (todo) => {
     console.log(todo._id);
-    fetch("http://localhost:3000/completed", {
+    fetch("https://todobackend-ckwn.onrender.com/completed", {
       method: "PUT",
       body: JSON.stringify({ id: todo._id }),
       headers: {
